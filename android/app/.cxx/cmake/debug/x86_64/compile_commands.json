@@ -1,0 +1,349 @@
+[
+{
+  "directory": "C:/Users/Felix/AndroidStudioProjects/flutter_oboe/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\Felix\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dflutter_oboe_EXPORTS -I../../../../../../../oboe/include -IC:/Users/Felix/AndroidStudioProjects/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -o CMakeFiles\\flutter_oboe.dir\\src\\main\\cpp\\LiveEffectEngine.cpp.o -c C:\\Users\\Felix\\AndroidStudioProjects\\flutter_oboe\\android\\app\\src\\main\\cpp\\LiveEffectEngine.cpp",
+  "file": "C:/Users/Felix/AndroidStudioProjects/flutter_oboe/android/app/src/main/cpp/LiveEffectEngine.cpp"
+},
+
+{
+  "directory": "C:/Users/Felix/AndroidStudioProjects/flutter_oboe/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\Felix\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dflutter_oboe_EXPORTS -I../../../../../../../oboe/include -IC:/Users/Felix/AndroidStudioProjects/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -o CMakeFiles\\flutter_oboe.dir\\src\\main\\cpp\\FullDuplexStream.cpp.o -c C:\\Users\\Felix\\AndroidStudioProjects\\flutter_oboe\\android\\app\\src\\main\\cpp\\FullDuplexStream.cpp",
+  "file": "C:/Users/Felix/AndroidStudioProjects/flutter_oboe/android/app/src/main/cpp/FullDuplexStream.cpp"
+},
+
+{
+  "directory": "C:/Users/Felix/AndroidStudioProjects/flutter_oboe/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\Felix\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dflutter_oboe_EXPORTS -I../../../../../../../oboe/include -IC:/Users/Felix/AndroidStudioProjects/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -o CMakeFiles\\flutter_oboe.dir\\src\\main\\cpp\\c_bridge.cpp.o -c C:\\Users\\Felix\\AndroidStudioProjects\\flutter_oboe\\android\\app\\src\\main\\cpp\\c_bridge.cpp",
+  "file": "C:/Users/Felix/AndroidStudioProjects/flutter_oboe/android/app/src/main/cpp/c_bridge.cpp"
+},
+
+{
+  "directory": "C:/Users/Felix/AndroidStudioProjects/flutter_oboe/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\Felix\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IC:/Users/Felix/AndroidStudioProjects/oboe/src -IC:/Users/Felix/AndroidStudioProjects/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -std=c++17 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -o oboe\\CMakeFiles\\oboe.dir\\src\\aaudio\\AAudioLoader.cpp.o -c C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\aaudio\\AAudioLoader.cpp",
+  "file": "C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\aaudio\\AAudioLoader.cpp"
+},
+
+{
+  "directory": "C:/Users/Felix/AndroidStudioProjects/flutter_oboe/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\Felix\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IC:/Users/Felix/AndroidStudioProjects/oboe/src -IC:/Users/Felix/AndroidStudioProjects/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -std=c++17 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -o oboe\\CMakeFiles\\oboe.dir\\src\\aaudio\\AudioStreamAAudio.cpp.o -c C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\aaudio\\AudioStreamAAudio.cpp",
+  "file": "C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\aaudio\\AudioStreamAAudio.cpp"
+},
+
+{
+  "directory": "C:/Users/Felix/AndroidStudioProjects/flutter_oboe/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\Felix\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IC:/Users/Felix/AndroidStudioProjects/oboe/src -IC:/Users/Felix/AndroidStudioProjects/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -std=c++17 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -o oboe\\CMakeFiles\\oboe.dir\\src\\common\\AudioSourceCaller.cpp.o -c C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\common\\AudioSourceCaller.cpp",
+  "file": "C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\common\\AudioSourceCaller.cpp"
+},
+
+{
+  "directory": "C:/Users/Felix/AndroidStudioProjects/flutter_oboe/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\Felix\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IC:/Users/Felix/AndroidStudioProjects/oboe/src -IC:/Users/Felix/AndroidStudioProjects/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -std=c++17 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -o oboe\\CMakeFiles\\oboe.dir\\src\\common\\AudioStream.cpp.o -c C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\common\\AudioStream.cpp",
+  "file": "C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\common\\AudioStream.cpp"
+},
+
+{
+  "directory": "C:/Users/Felix/AndroidStudioProjects/flutter_oboe/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\Felix\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IC:/Users/Felix/AndroidStudioProjects/oboe/src -IC:/Users/Felix/AndroidStudioProjects/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -std=c++17 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -o oboe\\CMakeFiles\\oboe.dir\\src\\common\\AudioStreamBuilder.cpp.o -c C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\common\\AudioStreamBuilder.cpp",
+  "file": "C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\common\\AudioStreamBuilder.cpp"
+},
+
+{
+  "directory": "C:/Users/Felix/AndroidStudioProjects/flutter_oboe/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\Felix\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IC:/Users/Felix/AndroidStudioProjects/oboe/src -IC:/Users/Felix/AndroidStudioProjects/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -std=c++17 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -o oboe\\CMakeFiles\\oboe.dir\\src\\common\\DataConversionFlowGraph.cpp.o -c C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\common\\DataConversionFlowGraph.cpp",
+  "file": "C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\common\\DataConversionFlowGraph.cpp"
+},
+
+{
+  "directory": "C:/Users/Felix/AndroidStudioProjects/flutter_oboe/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\Felix\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IC:/Users/Felix/AndroidStudioProjects/oboe/src -IC:/Users/Felix/AndroidStudioProjects/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -std=c++17 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -o oboe\\CMakeFiles\\oboe.dir\\src\\common\\FilterAudioStream.cpp.o -c C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\common\\FilterAudioStream.cpp",
+  "file": "C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\common\\FilterAudioStream.cpp"
+},
+
+{
+  "directory": "C:/Users/Felix/AndroidStudioProjects/flutter_oboe/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\Felix\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IC:/Users/Felix/AndroidStudioProjects/oboe/src -IC:/Users/Felix/AndroidStudioProjects/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -std=c++17 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -o oboe\\CMakeFiles\\oboe.dir\\src\\common\\FixedBlockAdapter.cpp.o -c C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\common\\FixedBlockAdapter.cpp",
+  "file": "C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\common\\FixedBlockAdapter.cpp"
+},
+
+{
+  "directory": "C:/Users/Felix/AndroidStudioProjects/flutter_oboe/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\Felix\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IC:/Users/Felix/AndroidStudioProjects/oboe/src -IC:/Users/Felix/AndroidStudioProjects/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -std=c++17 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -o oboe\\CMakeFiles\\oboe.dir\\src\\common\\FixedBlockReader.cpp.o -c C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\common\\FixedBlockReader.cpp",
+  "file": "C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\common\\FixedBlockReader.cpp"
+},
+
+{
+  "directory": "C:/Users/Felix/AndroidStudioProjects/flutter_oboe/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\Felix\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IC:/Users/Felix/AndroidStudioProjects/oboe/src -IC:/Users/Felix/AndroidStudioProjects/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -std=c++17 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -o oboe\\CMakeFiles\\oboe.dir\\src\\common\\FixedBlockWriter.cpp.o -c C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\common\\FixedBlockWriter.cpp",
+  "file": "C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\common\\FixedBlockWriter.cpp"
+},
+
+{
+  "directory": "C:/Users/Felix/AndroidStudioProjects/flutter_oboe/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\Felix\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IC:/Users/Felix/AndroidStudioProjects/oboe/src -IC:/Users/Felix/AndroidStudioProjects/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -std=c++17 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -o oboe\\CMakeFiles\\oboe.dir\\src\\common\\LatencyTuner.cpp.o -c C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\common\\LatencyTuner.cpp",
+  "file": "C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\common\\LatencyTuner.cpp"
+},
+
+{
+  "directory": "C:/Users/Felix/AndroidStudioProjects/flutter_oboe/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\Felix\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IC:/Users/Felix/AndroidStudioProjects/oboe/src -IC:/Users/Felix/AndroidStudioProjects/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -std=c++17 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -o oboe\\CMakeFiles\\oboe.dir\\src\\common\\SourceFloatCaller.cpp.o -c C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\common\\SourceFloatCaller.cpp",
+  "file": "C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\common\\SourceFloatCaller.cpp"
+},
+
+{
+  "directory": "C:/Users/Felix/AndroidStudioProjects/flutter_oboe/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\Felix\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IC:/Users/Felix/AndroidStudioProjects/oboe/src -IC:/Users/Felix/AndroidStudioProjects/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -std=c++17 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -o oboe\\CMakeFiles\\oboe.dir\\src\\common\\SourceI16Caller.cpp.o -c C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\common\\SourceI16Caller.cpp",
+  "file": "C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\common\\SourceI16Caller.cpp"
+},
+
+{
+  "directory": "C:/Users/Felix/AndroidStudioProjects/flutter_oboe/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\Felix\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IC:/Users/Felix/AndroidStudioProjects/oboe/src -IC:/Users/Felix/AndroidStudioProjects/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -std=c++17 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -o oboe\\CMakeFiles\\oboe.dir\\src\\common\\SourceI24Caller.cpp.o -c C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\common\\SourceI24Caller.cpp",
+  "file": "C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\common\\SourceI24Caller.cpp"
+},
+
+{
+  "directory": "C:/Users/Felix/AndroidStudioProjects/flutter_oboe/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\Felix\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IC:/Users/Felix/AndroidStudioProjects/oboe/src -IC:/Users/Felix/AndroidStudioProjects/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -std=c++17 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -o oboe\\CMakeFiles\\oboe.dir\\src\\common\\SourceI32Caller.cpp.o -c C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\common\\SourceI32Caller.cpp",
+  "file": "C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\common\\SourceI32Caller.cpp"
+},
+
+{
+  "directory": "C:/Users/Felix/AndroidStudioProjects/flutter_oboe/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\Felix\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IC:/Users/Felix/AndroidStudioProjects/oboe/src -IC:/Users/Felix/AndroidStudioProjects/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -std=c++17 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -o oboe\\CMakeFiles\\oboe.dir\\src\\common\\Utilities.cpp.o -c C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\common\\Utilities.cpp",
+  "file": "C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\common\\Utilities.cpp"
+},
+
+{
+  "directory": "C:/Users/Felix/AndroidStudioProjects/flutter_oboe/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\Felix\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IC:/Users/Felix/AndroidStudioProjects/oboe/src -IC:/Users/Felix/AndroidStudioProjects/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -std=c++17 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -o oboe\\CMakeFiles\\oboe.dir\\src\\common\\QuirksManager.cpp.o -c C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\common\\QuirksManager.cpp",
+  "file": "C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\common\\QuirksManager.cpp"
+},
+
+{
+  "directory": "C:/Users/Felix/AndroidStudioProjects/flutter_oboe/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\Felix\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IC:/Users/Felix/AndroidStudioProjects/oboe/src -IC:/Users/Felix/AndroidStudioProjects/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -std=c++17 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -o oboe\\CMakeFiles\\oboe.dir\\src\\fifo\\FifoBuffer.cpp.o -c C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\fifo\\FifoBuffer.cpp",
+  "file": "C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\fifo\\FifoBuffer.cpp"
+},
+
+{
+  "directory": "C:/Users/Felix/AndroidStudioProjects/flutter_oboe/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\Felix\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IC:/Users/Felix/AndroidStudioProjects/oboe/src -IC:/Users/Felix/AndroidStudioProjects/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -std=c++17 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -o oboe\\CMakeFiles\\oboe.dir\\src\\fifo\\FifoController.cpp.o -c C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\fifo\\FifoController.cpp",
+  "file": "C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\fifo\\FifoController.cpp"
+},
+
+{
+  "directory": "C:/Users/Felix/AndroidStudioProjects/flutter_oboe/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\Felix\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IC:/Users/Felix/AndroidStudioProjects/oboe/src -IC:/Users/Felix/AndroidStudioProjects/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -std=c++17 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -o oboe\\CMakeFiles\\oboe.dir\\src\\fifo\\FifoControllerBase.cpp.o -c C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\fifo\\FifoControllerBase.cpp",
+  "file": "C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\fifo\\FifoControllerBase.cpp"
+},
+
+{
+  "directory": "C:/Users/Felix/AndroidStudioProjects/flutter_oboe/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\Felix\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IC:/Users/Felix/AndroidStudioProjects/oboe/src -IC:/Users/Felix/AndroidStudioProjects/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -std=c++17 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -o oboe\\CMakeFiles\\oboe.dir\\src\\fifo\\FifoControllerIndirect.cpp.o -c C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\fifo\\FifoControllerIndirect.cpp",
+  "file": "C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\fifo\\FifoControllerIndirect.cpp"
+},
+
+{
+  "directory": "C:/Users/Felix/AndroidStudioProjects/flutter_oboe/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\Felix\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IC:/Users/Felix/AndroidStudioProjects/oboe/src -IC:/Users/Felix/AndroidStudioProjects/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -std=c++17 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -o oboe\\CMakeFiles\\oboe.dir\\src\\flowgraph\\FlowGraphNode.cpp.o -c C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\flowgraph\\FlowGraphNode.cpp",
+  "file": "C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\flowgraph\\FlowGraphNode.cpp"
+},
+
+{
+  "directory": "C:/Users/Felix/AndroidStudioProjects/flutter_oboe/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\Felix\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IC:/Users/Felix/AndroidStudioProjects/oboe/src -IC:/Users/Felix/AndroidStudioProjects/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -std=c++17 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -o oboe\\CMakeFiles\\oboe.dir\\src\\flowgraph\\ChannelCountConverter.cpp.o -c C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\flowgraph\\ChannelCountConverter.cpp",
+  "file": "C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\flowgraph\\ChannelCountConverter.cpp"
+},
+
+{
+  "directory": "C:/Users/Felix/AndroidStudioProjects/flutter_oboe/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\Felix\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IC:/Users/Felix/AndroidStudioProjects/oboe/src -IC:/Users/Felix/AndroidStudioProjects/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -std=c++17 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -o oboe\\CMakeFiles\\oboe.dir\\src\\flowgraph\\ClipToRange.cpp.o -c C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\flowgraph\\ClipToRange.cpp",
+  "file": "C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\flowgraph\\ClipToRange.cpp"
+},
+
+{
+  "directory": "C:/Users/Felix/AndroidStudioProjects/flutter_oboe/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\Felix\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IC:/Users/Felix/AndroidStudioProjects/oboe/src -IC:/Users/Felix/AndroidStudioProjects/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -std=c++17 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -o oboe\\CMakeFiles\\oboe.dir\\src\\flowgraph\\ManyToMultiConverter.cpp.o -c C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\flowgraph\\ManyToMultiConverter.cpp",
+  "file": "C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\flowgraph\\ManyToMultiConverter.cpp"
+},
+
+{
+  "directory": "C:/Users/Felix/AndroidStudioProjects/flutter_oboe/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\Felix\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IC:/Users/Felix/AndroidStudioProjects/oboe/src -IC:/Users/Felix/AndroidStudioProjects/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -std=c++17 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -o oboe\\CMakeFiles\\oboe.dir\\src\\flowgraph\\MonoToMultiConverter.cpp.o -c C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\flowgraph\\MonoToMultiConverter.cpp",
+  "file": "C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\flowgraph\\MonoToMultiConverter.cpp"
+},
+
+{
+  "directory": "C:/Users/Felix/AndroidStudioProjects/flutter_oboe/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\Felix\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IC:/Users/Felix/AndroidStudioProjects/oboe/src -IC:/Users/Felix/AndroidStudioProjects/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -std=c++17 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -o oboe\\CMakeFiles\\oboe.dir\\src\\flowgraph\\MultiToMonoConverter.cpp.o -c C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\flowgraph\\MultiToMonoConverter.cpp",
+  "file": "C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\flowgraph\\MultiToMonoConverter.cpp"
+},
+
+{
+  "directory": "C:/Users/Felix/AndroidStudioProjects/flutter_oboe/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\Felix\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IC:/Users/Felix/AndroidStudioProjects/oboe/src -IC:/Users/Felix/AndroidStudioProjects/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -std=c++17 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -o oboe\\CMakeFiles\\oboe.dir\\src\\flowgraph\\RampLinear.cpp.o -c C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\flowgraph\\RampLinear.cpp",
+  "file": "C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\flowgraph\\RampLinear.cpp"
+},
+
+{
+  "directory": "C:/Users/Felix/AndroidStudioProjects/flutter_oboe/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\Felix\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IC:/Users/Felix/AndroidStudioProjects/oboe/src -IC:/Users/Felix/AndroidStudioProjects/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -std=c++17 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -o oboe\\CMakeFiles\\oboe.dir\\src\\flowgraph\\SampleRateConverter.cpp.o -c C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\flowgraph\\SampleRateConverter.cpp",
+  "file": "C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\flowgraph\\SampleRateConverter.cpp"
+},
+
+{
+  "directory": "C:/Users/Felix/AndroidStudioProjects/flutter_oboe/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\Felix\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IC:/Users/Felix/AndroidStudioProjects/oboe/src -IC:/Users/Felix/AndroidStudioProjects/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -std=c++17 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -o oboe\\CMakeFiles\\oboe.dir\\src\\flowgraph\\SinkFloat.cpp.o -c C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\flowgraph\\SinkFloat.cpp",
+  "file": "C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\flowgraph\\SinkFloat.cpp"
+},
+
+{
+  "directory": "C:/Users/Felix/AndroidStudioProjects/flutter_oboe/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\Felix\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IC:/Users/Felix/AndroidStudioProjects/oboe/src -IC:/Users/Felix/AndroidStudioProjects/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -std=c++17 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -o oboe\\CMakeFiles\\oboe.dir\\src\\flowgraph\\SinkI16.cpp.o -c C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\flowgraph\\SinkI16.cpp",
+  "file": "C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\flowgraph\\SinkI16.cpp"
+},
+
+{
+  "directory": "C:/Users/Felix/AndroidStudioProjects/flutter_oboe/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\Felix\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IC:/Users/Felix/AndroidStudioProjects/oboe/src -IC:/Users/Felix/AndroidStudioProjects/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -std=c++17 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -o oboe\\CMakeFiles\\oboe.dir\\src\\flowgraph\\SinkI24.cpp.o -c C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\flowgraph\\SinkI24.cpp",
+  "file": "C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\flowgraph\\SinkI24.cpp"
+},
+
+{
+  "directory": "C:/Users/Felix/AndroidStudioProjects/flutter_oboe/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\Felix\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IC:/Users/Felix/AndroidStudioProjects/oboe/src -IC:/Users/Felix/AndroidStudioProjects/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -std=c++17 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -o oboe\\CMakeFiles\\oboe.dir\\src\\flowgraph\\SinkI32.cpp.o -c C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\flowgraph\\SinkI32.cpp",
+  "file": "C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\flowgraph\\SinkI32.cpp"
+},
+
+{
+  "directory": "C:/Users/Felix/AndroidStudioProjects/flutter_oboe/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\Felix\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IC:/Users/Felix/AndroidStudioProjects/oboe/src -IC:/Users/Felix/AndroidStudioProjects/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -std=c++17 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -o oboe\\CMakeFiles\\oboe.dir\\src\\flowgraph\\SourceFloat.cpp.o -c C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\flowgraph\\SourceFloat.cpp",
+  "file": "C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\flowgraph\\SourceFloat.cpp"
+},
+
+{
+  "directory": "C:/Users/Felix/AndroidStudioProjects/flutter_oboe/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\Felix\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IC:/Users/Felix/AndroidStudioProjects/oboe/src -IC:/Users/Felix/AndroidStudioProjects/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -std=c++17 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -o oboe\\CMakeFiles\\oboe.dir\\src\\flowgraph\\SourceI16.cpp.o -c C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\flowgraph\\SourceI16.cpp",
+  "file": "C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\flowgraph\\SourceI16.cpp"
+},
+
+{
+  "directory": "C:/Users/Felix/AndroidStudioProjects/flutter_oboe/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\Felix\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IC:/Users/Felix/AndroidStudioProjects/oboe/src -IC:/Users/Felix/AndroidStudioProjects/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -std=c++17 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -o oboe\\CMakeFiles\\oboe.dir\\src\\flowgraph\\SourceI24.cpp.o -c C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\flowgraph\\SourceI24.cpp",
+  "file": "C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\flowgraph\\SourceI24.cpp"
+},
+
+{
+  "directory": "C:/Users/Felix/AndroidStudioProjects/flutter_oboe/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\Felix\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IC:/Users/Felix/AndroidStudioProjects/oboe/src -IC:/Users/Felix/AndroidStudioProjects/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -std=c++17 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -o oboe\\CMakeFiles\\oboe.dir\\src\\flowgraph\\SourceI32.cpp.o -c C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\flowgraph\\SourceI32.cpp",
+  "file": "C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\flowgraph\\SourceI32.cpp"
+},
+
+{
+  "directory": "C:/Users/Felix/AndroidStudioProjects/flutter_oboe/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\Felix\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IC:/Users/Felix/AndroidStudioProjects/oboe/src -IC:/Users/Felix/AndroidStudioProjects/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -std=c++17 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -o oboe\\CMakeFiles\\oboe.dir\\src\\flowgraph\\resampler\\IntegerRatio.cpp.o -c C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\flowgraph\\resampler\\IntegerRatio.cpp",
+  "file": "C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\flowgraph\\resampler\\IntegerRatio.cpp"
+},
+
+{
+  "directory": "C:/Users/Felix/AndroidStudioProjects/flutter_oboe/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\Felix\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IC:/Users/Felix/AndroidStudioProjects/oboe/src -IC:/Users/Felix/AndroidStudioProjects/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -std=c++17 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -o oboe\\CMakeFiles\\oboe.dir\\src\\flowgraph\\resampler\\LinearResampler.cpp.o -c C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\flowgraph\\resampler\\LinearResampler.cpp",
+  "file": "C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\flowgraph\\resampler\\LinearResampler.cpp"
+},
+
+{
+  "directory": "C:/Users/Felix/AndroidStudioProjects/flutter_oboe/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\Felix\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IC:/Users/Felix/AndroidStudioProjects/oboe/src -IC:/Users/Felix/AndroidStudioProjects/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -std=c++17 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -o oboe\\CMakeFiles\\oboe.dir\\src\\flowgraph\\resampler\\MultiChannelResampler.cpp.o -c C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\flowgraph\\resampler\\MultiChannelResampler.cpp",
+  "file": "C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\flowgraph\\resampler\\MultiChannelResampler.cpp"
+},
+
+{
+  "directory": "C:/Users/Felix/AndroidStudioProjects/flutter_oboe/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\Felix\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IC:/Users/Felix/AndroidStudioProjects/oboe/src -IC:/Users/Felix/AndroidStudioProjects/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -std=c++17 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -o oboe\\CMakeFiles\\oboe.dir\\src\\flowgraph\\resampler\\PolyphaseResampler.cpp.o -c C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\flowgraph\\resampler\\PolyphaseResampler.cpp",
+  "file": "C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\flowgraph\\resampler\\PolyphaseResampler.cpp"
+},
+
+{
+  "directory": "C:/Users/Felix/AndroidStudioProjects/flutter_oboe/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\Felix\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IC:/Users/Felix/AndroidStudioProjects/oboe/src -IC:/Users/Felix/AndroidStudioProjects/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -std=c++17 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -o oboe\\CMakeFiles\\oboe.dir\\src\\flowgraph\\resampler\\PolyphaseResamplerMono.cpp.o -c C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\flowgraph\\resampler\\PolyphaseResamplerMono.cpp",
+  "file": "C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\flowgraph\\resampler\\PolyphaseResamplerMono.cpp"
+},
+
+{
+  "directory": "C:/Users/Felix/AndroidStudioProjects/flutter_oboe/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\Felix\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IC:/Users/Felix/AndroidStudioProjects/oboe/src -IC:/Users/Felix/AndroidStudioProjects/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -std=c++17 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -o oboe\\CMakeFiles\\oboe.dir\\src\\flowgraph\\resampler\\PolyphaseResamplerStereo.cpp.o -c C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\flowgraph\\resampler\\PolyphaseResamplerStereo.cpp",
+  "file": "C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\flowgraph\\resampler\\PolyphaseResamplerStereo.cpp"
+},
+
+{
+  "directory": "C:/Users/Felix/AndroidStudioProjects/flutter_oboe/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\Felix\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IC:/Users/Felix/AndroidStudioProjects/oboe/src -IC:/Users/Felix/AndroidStudioProjects/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -std=c++17 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -o oboe\\CMakeFiles\\oboe.dir\\src\\flowgraph\\resampler\\SincResampler.cpp.o -c C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\flowgraph\\resampler\\SincResampler.cpp",
+  "file": "C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\flowgraph\\resampler\\SincResampler.cpp"
+},
+
+{
+  "directory": "C:/Users/Felix/AndroidStudioProjects/flutter_oboe/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\Felix\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IC:/Users/Felix/AndroidStudioProjects/oboe/src -IC:/Users/Felix/AndroidStudioProjects/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -std=c++17 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -o oboe\\CMakeFiles\\oboe.dir\\src\\flowgraph\\resampler\\SincResamplerStereo.cpp.o -c C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\flowgraph\\resampler\\SincResamplerStereo.cpp",
+  "file": "C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\flowgraph\\resampler\\SincResamplerStereo.cpp"
+},
+
+{
+  "directory": "C:/Users/Felix/AndroidStudioProjects/flutter_oboe/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\Felix\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IC:/Users/Felix/AndroidStudioProjects/oboe/src -IC:/Users/Felix/AndroidStudioProjects/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -std=c++17 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -o oboe\\CMakeFiles\\oboe.dir\\src\\opensles\\AudioInputStreamOpenSLES.cpp.o -c C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\opensles\\AudioInputStreamOpenSLES.cpp",
+  "file": "C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\opensles\\AudioInputStreamOpenSLES.cpp"
+},
+
+{
+  "directory": "C:/Users/Felix/AndroidStudioProjects/flutter_oboe/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\Felix\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IC:/Users/Felix/AndroidStudioProjects/oboe/src -IC:/Users/Felix/AndroidStudioProjects/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -std=c++17 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -o oboe\\CMakeFiles\\oboe.dir\\src\\opensles\\AudioOutputStreamOpenSLES.cpp.o -c C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\opensles\\AudioOutputStreamOpenSLES.cpp",
+  "file": "C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\opensles\\AudioOutputStreamOpenSLES.cpp"
+},
+
+{
+  "directory": "C:/Users/Felix/AndroidStudioProjects/flutter_oboe/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\Felix\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IC:/Users/Felix/AndroidStudioProjects/oboe/src -IC:/Users/Felix/AndroidStudioProjects/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -std=c++17 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -o oboe\\CMakeFiles\\oboe.dir\\src\\opensles\\AudioStreamBuffered.cpp.o -c C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\opensles\\AudioStreamBuffered.cpp",
+  "file": "C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\opensles\\AudioStreamBuffered.cpp"
+},
+
+{
+  "directory": "C:/Users/Felix/AndroidStudioProjects/flutter_oboe/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\Felix\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IC:/Users/Felix/AndroidStudioProjects/oboe/src -IC:/Users/Felix/AndroidStudioProjects/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -std=c++17 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -o oboe\\CMakeFiles\\oboe.dir\\src\\opensles\\AudioStreamOpenSLES.cpp.o -c C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\opensles\\AudioStreamOpenSLES.cpp",
+  "file": "C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\opensles\\AudioStreamOpenSLES.cpp"
+},
+
+{
+  "directory": "C:/Users/Felix/AndroidStudioProjects/flutter_oboe/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\Felix\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IC:/Users/Felix/AndroidStudioProjects/oboe/src -IC:/Users/Felix/AndroidStudioProjects/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -std=c++17 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -o oboe\\CMakeFiles\\oboe.dir\\src\\opensles\\EngineOpenSLES.cpp.o -c C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\opensles\\EngineOpenSLES.cpp",
+  "file": "C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\opensles\\EngineOpenSLES.cpp"
+},
+
+{
+  "directory": "C:/Users/Felix/AndroidStudioProjects/flutter_oboe/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\Felix\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IC:/Users/Felix/AndroidStudioProjects/oboe/src -IC:/Users/Felix/AndroidStudioProjects/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -std=c++17 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -o oboe\\CMakeFiles\\oboe.dir\\src\\opensles\\OpenSLESUtilities.cpp.o -c C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\opensles\\OpenSLESUtilities.cpp",
+  "file": "C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\opensles\\OpenSLESUtilities.cpp"
+},
+
+{
+  "directory": "C:/Users/Felix/AndroidStudioProjects/flutter_oboe/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\Felix\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IC:/Users/Felix/AndroidStudioProjects/oboe/src -IC:/Users/Felix/AndroidStudioProjects/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -std=c++17 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -o oboe\\CMakeFiles\\oboe.dir\\src\\opensles\\OutputMixerOpenSLES.cpp.o -c C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\opensles\\OutputMixerOpenSLES.cpp",
+  "file": "C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\opensles\\OutputMixerOpenSLES.cpp"
+},
+
+{
+  "directory": "C:/Users/Felix/AndroidStudioProjects/flutter_oboe/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\Felix\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IC:/Users/Felix/AndroidStudioProjects/oboe/src -IC:/Users/Felix/AndroidStudioProjects/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -std=c++17 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -o oboe\\CMakeFiles\\oboe.dir\\src\\common\\StabilizedCallback.cpp.o -c C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\common\\StabilizedCallback.cpp",
+  "file": "C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\common\\StabilizedCallback.cpp"
+},
+
+{
+  "directory": "C:/Users/Felix/AndroidStudioProjects/flutter_oboe/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\Felix\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IC:/Users/Felix/AndroidStudioProjects/oboe/src -IC:/Users/Felix/AndroidStudioProjects/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -std=c++17 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -o oboe\\CMakeFiles\\oboe.dir\\src\\common\\Trace.cpp.o -c C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\common\\Trace.cpp",
+  "file": "C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\common\\Trace.cpp"
+},
+
+{
+  "directory": "C:/Users/Felix/AndroidStudioProjects/flutter_oboe/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\Felix\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Felix/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -IC:/Users/Felix/AndroidStudioProjects/oboe/src -IC:/Users/Felix/AndroidStudioProjects/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -std=c++17 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -o oboe\\CMakeFiles\\oboe.dir\\src\\common\\Version.cpp.o -c C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\common\\Version.cpp",
+  "file": "C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\src\\common\\Version.cpp"
+}
+]

@@ -1,0 +1,28 @@
+{
+  "buildFiles": [
+    "C:\\Users\\Felix\\AndroidStudioProjects\\flutter_oboe\\android\\app\\CMakeLists.txt",
+    "C:\\Users\\Felix\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake",
+    "C:\\Users\\Felix\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\platforms.cmake",
+    "C:\\Users\\Felix\\AndroidStudioProjects\\oboe\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\Felix\\AppData\\Local\\Android\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Felix\\AndroidStudioProjects\\flutter_oboe\\android\\app\\.cxx\\cmake\\debug\\x86_64\" clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\Felix\\AppData\\Local\\Android\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"C:\\Users\\Felix\\AndroidStudioProjects\\flutter_oboe\\android\\app\\.cxx\\cmake\\debug\\x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "flutter_oboe-Release-x86_64": {
+      "artifactName": "flutter_oboe",
+      "buildCommand": "C:\\Users\\Felix\\AppData\\Local\\Android\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Felix\\AndroidStudioProjects\\flutter_oboe\\android\\app\\.cxx\\cmake\\debug\\x86_64\" flutter_oboe",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Felix\\AndroidStudioProjects\\flutter_oboe\\build\\app\\intermediates\\cmake\\debug\\obj\\x86_64\\libflutter_oboe.so",
+      "runtimeFiles": []
+    },
+    "oboe-Release-x86_64": {
+      "artifactName": "oboe",
+      "buildCommand": "C:\\Users\\Felix\\AppData\\Local\\Android\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Felix\\AndroidStudioProjects\\flutter_oboe\\android\\app\\.cxx\\cmake\\debug\\x86_64\" oboe",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Felix\\AndroidStudioProjects\\flutter_oboe\\android\\app\\.cxx\\cmake\\debug\\x86_64\\oboe\\liboboe.a",
+      "runtimeFiles": []
+    }
+  }
+}
