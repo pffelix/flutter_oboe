@@ -12,4 +12,4 @@ To build the application you have to copy the Oboe library into the root folder.
 The Oboe Library can be downloaded from following link https://github.com/google/oboe.
 The library is then dynamically linked via CMake in android/app/CMakeLists.txt.
 
-Thanks goes to Richard Heap for his tutorial to dart:ffi https://www.youtube.com/watch?v=X8JD8hHkBMc&t=1380s
+Thanks goes to Richard Heap for his tutorial on dart:ffi https://www.youtube.com/watch?v=X8JD8hHkBMc&t=1380s
