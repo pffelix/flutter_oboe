@@ -4,7 +4,7 @@ project (flutter_oboe)
 set(CMAKE_BUILD_TYPE Release)
 
 # Set the path to the Oboe directory
-set (OBOE_DIR ../../../oboe)
+set (OBOE_DIR ../../oboe)
 
 # Add the Oboe library as a subdirectory in your project
 add_subdirectory (${OBOE_DIR} ./oboe)
