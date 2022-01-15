@@ -1,4 +1,4 @@
-# flutter_oboe
+# Flutter bindings for Oboe library
 ![image_app](images/app.png?raw=true)<br>
 <br>
 Example Flutter application implementing a wrapper for the C++ Google Oboe (LiveEffect Sample) library via dart:ffi. 
@@ -13,3 +13,5 @@ The Oboe Library can be downloaded from following link https://github.com/google
 The library is then dynamically linked via CMake in android/app/CMakeLists.txt.
 
 Thanks goes to Richard Heap for his tutorial on dart:ffi https://www.youtube.com/watch?v=X8JD8hHkBMc&t=1380s
+
+The goal of the project might be to develop more comprehensive low latency audio recording bindings for Flutter (if there is interest and more contributors want to join).
