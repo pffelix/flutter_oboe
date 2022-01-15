@@ -1,2 +1,0 @@
-ninja: Entering directory `C:\Users\Felix\AndroidStudioProjects\flutter_oboe\android\app\.cxx\cmake\debug\x86_64'
-ninja: no work to do.

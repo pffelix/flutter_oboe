@@ -1,7 +1,0 @@
-Executable : C:\Users\Felix\AppData\Local\Android\sdk\cmake\3.10.2.4988404\bin\ninja.exe
-arguments : 
--C
-C:\Users\Felix\AndroidStudioProjects\flutter_oboe\android\app\.cxx\cmake\debug\armeabi-v7a
-flutter_oboe
-jvmArgs : 
-
