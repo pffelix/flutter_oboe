@@ -1,10 +1,9 @@
 # flutter_oboe
-<p align="center">
-![image_app](images/app.png?raw=true)</p><br>
+![image_app](images/app.png?raw=true)<br>
 <br>
 Example application implementing a wrapper for the C++ Google Oboe (LiveEffect Sample) library via dart:ffi in Flutter. 
 Target is to reach a minimum microphone to speaker audio latency passthrough on Android.
-The microphone recording with simultaneous speaker playback can started by pressing the start button.
+The microphone recording with simultaneous speaker playback can be started by pressing the start button.
 
 To build the application you have to copy the Oboe library into the root folder.
 The Oboe Library can be downloaded from following link https://github.com/google/oboe.
