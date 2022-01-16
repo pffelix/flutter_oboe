@@ -1,5 +1,8 @@
 # Flutter bindings for Oboe library
-![image_app](images/app.png?raw=true)<br>
+<p align="center">
+<img src="images/app.png">
+</p>
+<br>
 <br>
 Example Flutter application implementing a wrapper for the C++ Google Oboe (LiveEffect Sample) library via dart:ffi. 
 Target is to reach a minimum microphone to speaker audio latency passthrough with Flutter for Android.
