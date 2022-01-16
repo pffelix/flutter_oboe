@@ -19,6 +19,7 @@
 
 #include "LiveEffectEngine.h"
 
+
 LiveEffectEngine::LiveEffectEngine() {
     assert(mOutputChannelCount == mInputChannelCount);
 }
@@ -235,4 +236,8 @@ void LiveEffectEngine::onErrorAfterClose(oboe::AudioStream *oboeStream,
     LOGE("%s stream Error after close: %s",
          oboe::convertToText(oboeStream->getDirection()),
          oboe::convertToText(error));
+}
+
+void LiveEffectEngine::setGain(float gain) {
+    mFullDuplexPass.setGain(gain);
 }

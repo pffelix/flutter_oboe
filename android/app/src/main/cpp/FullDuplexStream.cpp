@@ -126,3 +126,11 @@ int32_t FullDuplexStream::getNumInputBurstsCushion() const {
 void FullDuplexStream::setNumInputBurstsCushion(int32_t numBursts) {
     FullDuplexStream::mNumInputBurstsCushion = numBursts;
 }
+
+void FullDuplexStream::setGain(float gain){
+    mgain = gain;
+}
+
+float FullDuplexStream::getGain(){
+    return mgain;
+}

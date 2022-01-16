@@ -49,8 +49,7 @@ public:
             int   numInputFrames,
             std::shared_ptr<oboe::AudioStream> outputStream,
             void *outputData,
-            int   numOutputFrames
-            ) = 0;
+            int   numOutputFrames) = 0;
 
     /**
      * Called by Oboe when the stream is ready to process audio.
@@ -71,6 +70,16 @@ public:
      * @param mNumInputBurstsCushion
      */
     void setNumInputBurstsCushion(int32_t numInputBurstsCushion);
+
+    /**
+    * Set modeling amplification
+    */
+    void setGain(float gain);
+
+    /**
+    * Get modeling amplification
+    */
+    float getGain();
 
 private:
 
@@ -96,6 +105,7 @@ private:
 
     int32_t              mBufferSize = 0;
     std::unique_ptr<float[]> mInputBuffer;
+    float                mgain = 1.0;
 };
 
 

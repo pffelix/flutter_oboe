@@ -116,3 +116,7 @@ EXTERNC void LiveEffectEngine_native_1setDefaultStreamValues(int32_t sampleRate,
     oboe::DefaultStreamValues::SampleRate = sampleRate;
     oboe::DefaultStreamValues::FramesPerBurst = framesPerBurst;
 }
+
+EXTERNC void LiveEffectEngine_setGain(double gain) {
+    engine->setGain((float) gain);
+}

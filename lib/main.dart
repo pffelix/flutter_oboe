@@ -19,6 +19,7 @@ class MyAppState extends State<MyApp>{
   int api = 0; // OBOE_API_AAUDIO = 0, OBOE_API_OPENSL_ES = 1
   int sampleRate = 44100;
   int framesPerBurst = 0; // default
+  double gain = 1.0; // amplification
 
   final stream = FlutterOboe();
   late bool engineCreated;
@@ -30,6 +31,16 @@ class MyAppState extends State<MyApp>{
 
     // ask for microphone permission
     getMicrophonePermission();
+
+    // create Oboe audio stream
+    engineCreated = stream.engineCreate();
+    engineCreated ? print("Oboe Audio stream created") :
+      print("Oboe Audio stream failed");
+
+    // check whether AAudio API is recommended for the device
+    aaudioRecommended = stream.engineIsAAudioRecommended();
+    aaudioRecommended ? print("AAudio recommended") :
+      print("AAudio not recommended");
   }
 
   @override
@@ -89,13 +100,26 @@ class MyAppState extends State<MyApp>{
                       );
                     }).toList(),
                 ),
-                ElevatedButton(
-                  child: Text('START'),
-                  onPressed: start,
-                ),
-                ElevatedButton(
-                  child: Text('STOP'),
-                  onPressed: stop,
+              Text('Gain:'),
+              Slider(
+                value: gain,
+                max: 10,
+                divisions: 100,
+                label: gain.toStringAsFixed(1),
+                onChanged: (double value) {
+                  setState(() {
+                    gain = value;
+                    stream.engineSetGain(gain);
+                  });
+                },
+              ),
+              ElevatedButton(
+                child: Text('START'),
+                onPressed: start,
+              ),
+              ElevatedButton(
+                child: Text('STOP'),
+                onPressed: stop,
               ),
               SizedBox(height: 40),
               Text('Warning: If you run this sample you may create a feedback '
@@ -108,10 +132,6 @@ class MyAppState extends State<MyApp>{
   }
 
   void start(){
-    // create Oboe audio stream
-    engineCreated = stream.engineCreate();
-    engineCreated ? print("Oboe Audio stream successfully created") :
-      print("Oboe Audio stream failed");
     // set recording device id
     stream.engineSetRecordingDeviceId(recordingDeviceId);
     // set playback device id
@@ -120,10 +140,6 @@ class MyAppState extends State<MyApp>{
     stream.engineSetAPI(api);
     // set sample rate
     stream.engineNative1setDefaultStreamValues(sampleRate, framesPerBurst);
-    // check whether AAudio API is recommended for the device
-    aaudioRecommended = stream.engineIsAAudioRecommended();
-    aaudioRecommended ? print("AAudio recommended") :
-      print("AAudio not recommended");
     // start Oboe audio passthrough
     stream.engineSetEffectOn(true);
   }

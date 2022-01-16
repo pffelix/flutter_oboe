@@ -28,6 +28,9 @@ typedef LiveEffectEngine_native_1setDefaultStreamValues = Void Function(Int32,
 typedef LiveEffectEngineNative1setDefaultStreamValues = void Function(int,
     int);
 
+typedef LiveEffectEngine_setGain = Void Function(Double);
+typedef LiveEffectEngineSetGain = void Function(double);
+
 class FlutterOboe {
   static const MethodChannel _channel = const MethodChannel(('flutter_oboe'));
 
@@ -43,6 +46,7 @@ class FlutterOboe {
   late LiveEffectEngineSetAPI engineSetAPI;
   late LiveEffectEngineIsAAudioRecommended engineIsAAudioRecommended;
   late LiveEffectEngineNative1setDefaultStreamValues engineNative1setDefaultStreamValues;
+  late LiveEffectEngineSetGain engineSetGain;
 
   FlutterOboe(){
 
@@ -79,6 +83,9 @@ class FlutterOboe {
     engineNative1setDefaultStreamValues = oboeLib
         .lookup<NativeFunction<LiveEffectEngine_native_1setDefaultStreamValues>>('LiveEffectEngine_native_1setDefaultStreamValues')
         .asFunction();
+    engineSetGain = oboeLib
+      .lookup<NativeFunction<LiveEffectEngine_setGain>>('LiveEffectEngine_setGain')
+      .asFunction();
   }
 }
 
