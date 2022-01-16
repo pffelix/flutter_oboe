@@ -8,6 +8,7 @@ Example Flutter application implementing a wrapper for the C++ Google Oboe (Live
 Target is to reach a minimum microphone to speaker audio latency passthrough with Flutter for Android.
 The microphone recording with simultaneous speaker playback can be started by pressing the start button.
 
+
 In the GUI settings the used Audio API (AAudio or OpenSL ES), the sampling rate and the amplification can be selected. 
 The programming interface also allows to select the recording and playback device_id and the framesPerBurst.
 
