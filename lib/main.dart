@@ -123,7 +123,7 @@ class MyAppState extends State<MyApp>{
               ),
               SizedBox(height: 40),
               Text('Warning: If you run this sample you may create a feedback '
-                  'loop which will not be pleasent to list to.', textAlign: TextAlign.center,),
+                  'loop which will not be pleasent to listen to.', textAlign: TextAlign.center,),
             ],
           ),
         ),
