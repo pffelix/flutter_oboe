@@ -23,6 +23,11 @@
 #define EXTERNC
 #endif
 
+/**
+* native c wrapper for connecting OBOE Live effect sample with dart:ffi
+* https://github.com/google/oboe/tree/master/samples/LiveEffect
+*/
+
 static const int kOboeApiAAudio = 0;
 static const int kOboeApiOpenSLES = 1;
 
@@ -120,3 +125,4 @@ EXTERNC void LiveEffectEngine_native_1setDefaultStreamValues(int32_t sampleRate,
 EXTERNC void LiveEffectEngine_setGain(double gain) {
     engine->setGain((float) gain);
 }
+

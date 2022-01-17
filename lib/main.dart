@@ -21,7 +21,7 @@ class MyAppState extends State<MyApp>{
   int framesPerBurst = 0; // default
   double gain = 1.0; // amplification
 
-  final stream = FlutterOboe();
+  late FlutterOboe stream;
   late bool engineCreated;
   late bool aaudioRecommended;
 
@@ -31,6 +31,12 @@ class MyAppState extends State<MyApp>{
 
     // ask for microphone permission
     getMicrophonePermission();
+
+    // initialize dart:ffi interface to OBOE library
+    stream = FlutterOboe();
+
+    // initialize native messenging between Oboe and Flutter
+    stream.initNativeMessenging();
 
     // create Oboe audio stream
     engineCreated = stream.engineCreate();
@@ -132,6 +138,8 @@ class MyAppState extends State<MyApp>{
   }
 
   void start(){
+    // create Oboe audio stream
+    if(!engineCreated) {stream.engineCreate();}
     // set recording device id
     stream.engineSetRecordingDeviceId(recordingDeviceId);
     // set playback device id
@@ -147,8 +155,10 @@ class MyAppState extends State<MyApp>{
   void stop(){
     // stop Oboe audio passthrough
     stream.engineSetEffectOn(false);
-    // delte Oboe audio stream
+    // delete Oboe audio stream
     stream.engineDelete();
+    // flag engine status
+    engineCreated = false;
   }
 
   String apiToString(int api){

@@ -72,14 +72,19 @@ public:
     void setNumInputBurstsCushion(int32_t numInputBurstsCushion);
 
     /**
-    * Set modeling amplification
+    * Set variable gain from Flutter
     */
     void setGain(float gain);
 
     /**
-    * Get modeling amplification
+    * Get variable gain
     */
     float getGain();
+
+    /**
+    * Send message to flutter
+    */
+    void sendMsg(int64_t msg);
 
 private:
 

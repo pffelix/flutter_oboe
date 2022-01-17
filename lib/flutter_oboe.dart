@@ -1,6 +1,7 @@
 import 'dart:ffi';
 import 'dart:async';
 import 'package:flutter/services.dart';
+import 'dart:isolate';
 
 typedef LiveEffectEngine_create = Bool Function();
 typedef LiveEffectEngineCreate = bool Function();
@@ -48,9 +49,11 @@ class FlutterOboe {
   late LiveEffectEngineNative1setDefaultStreamValues engineNative1setDefaultStreamValues;
   late LiveEffectEngineSetGain engineSetGain;
 
+  late DynamicLibrary oboeLib;
+
   FlutterOboe(){
 
-    final oboeLib = DynamicLibrary.open('libflutter_oboe.so');
+    oboeLib = DynamicLibrary.open('libflutter_oboe.so');
 
     engineCreate = oboeLib
       .lookup<NativeFunction<LiveEffectEngine_create>>('LiveEffectEngine_create')
@@ -86,6 +89,29 @@ class FlutterOboe {
     engineSetGain = oboeLib
       .lookup<NativeFunction<LiveEffectEngine_setGain>>('LiveEffectEngine_setGain')
       .asFunction();
+  }
+
+  // messenging, see https://github.com/audiooffler/JucyFluttering
+  void initNativeMessenging() async {
+    // initialize the native dart API
+    final initializeApi = oboeLib.lookupFunction<IntPtr Function(Pointer<Void>),
+        int Function(Pointer<Void>)>("InitializeDartApi");
+    if (initializeApi(NativeApi.initializeApiDLData) != 0) {
+      throw "Failed to initialize Dart API";
+    }
+
+    final interactiveCppRequests = ReceivePort()
+      ..listen((data) {
+        print('Seconds of OBOE running: ${data}');
+      });
+
+    final int nativePort = interactiveCppRequests.sendPort.nativePort;
+
+    final void Function(int port) setDartApiMessagePort = oboeLib
+        .lookup<NativeFunction<Void Function(Int64 port)>>(
+        "SetDartApiMessagePort")
+        .asFunction();
+    setDartApiMessagePort(nativePort);
   }
 }
 

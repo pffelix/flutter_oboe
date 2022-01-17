@@ -15,6 +15,7 @@
  */
 
 #include "FullDuplexStream.h"
+#include "c_port.h"
 
 oboe::DataCallbackResult FullDuplexStream::onAudioReady(
         oboe::AudioStream *outputStream,
@@ -133,4 +134,8 @@ void FullDuplexStream::setGain(float gain){
 
 float FullDuplexStream::getGain(){
     return mgain;
+}
+
+void FullDuplexStream::sendMsg(int64_t msg){
+    sendMsgToFlutter(msg);
 }
