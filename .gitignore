@@ -45,8 +45,5 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 
-# Oboe
-/oboe/
-
 # Cmake
 android/app/.cxx/
