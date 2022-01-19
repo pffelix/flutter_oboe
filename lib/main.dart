@@ -1,7 +1,9 @@
+import 'dart:async';
+import 'dart:typed_data';
 import 'package:flutter/material.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:flutter_oboe/flutter_oboe.dart';
-import 'dart:async';
+import 'package:oscilloscope/oscilloscope.dart';
 
 void main(){
   runApp(MyApp());
@@ -13,17 +15,23 @@ class MyApp extends StatefulWidget{
 }
 
 class MyAppState extends State<MyApp>{
-  // parameters
+  // oboe parameters
   int recordingDeviceId = 0;
   int playbackDeviceId = 0;
   int api = 0; // OBOE_API_AAUDIO = 0, OBOE_API_OPENSL_ES = 1
   int sampleRate = 44100;
-  int framesPerBurst = 0; // default
   double gain = 1.0; // amplification
+  int framesPerBurst = 0; // default = 0
+
+  // oscilloscope parameters
+  int osciUpdateRate = 10; // in Hz
 
   late FlutterOboe stream;
   late bool engineCreated;
   late bool aaudioRecommended;
+  List<double> osciSamples = [];
+  int sampleCount = 0;
+  double sampleMax = 0.0;
 
   @override
   void initState(){
@@ -37,6 +45,9 @@ class MyAppState extends State<MyApp>{
 
     // initialize native messenging between Oboe and Flutter
     stream.initNativeMessenging();
+
+    // register the callback port to receive the output sample buffers from Oboe
+    receiveSamples();
 
     // create Oboe audio stream
     engineCreated = stream.engineCreate();
@@ -60,6 +71,7 @@ class MyAppState extends State<MyApp>{
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
+              SizedBox(height: 10),
               Text('Audio API:'),
               DropdownButton<int>(
                 value: api,
@@ -119,6 +131,20 @@ class MyAppState extends State<MyApp>{
                   });
                 },
               ),
+              Expanded(
+                  flex:1,
+                  child: Oscilloscope(
+                    showYAxis: true,
+                    yAxisColor: Colors.orange,
+                    margin: EdgeInsets.all(0.0),
+                    strokeWidth: 1.0,
+                    backgroundColor: Colors.black,
+                    traceColor: Colors.green,
+                    yAxisMax: 1.0,
+                    yAxisMin: -1.0,
+                    dataSet: osciSamples,
+                  )
+              ),
               ElevatedButton(
                 child: Text('START'),
                 onPressed: start,
@@ -127,9 +153,10 @@ class MyAppState extends State<MyApp>{
                 child: Text('STOP'),
                 onPressed: stop,
               ),
-              SizedBox(height: 40),
               Text('Warning: If you run this sample you may create a feedback '
-                  'loop which will not be pleasent to listen to.', textAlign: TextAlign.center,),
+                  'loop which will not be pleasent to listen to.',
+                  textAlign: TextAlign.center,),
+              SizedBox(height: 5),
             ],
           ),
         ),
@@ -148,7 +175,7 @@ class MyAppState extends State<MyApp>{
     stream.engineSetAPI(api);
     // set sample rate
     stream.engineNative1setDefaultStreamValues(sampleRate, framesPerBurst);
-    // start Oboe audio passthrough
+    // start Oboe audio passthrough (input buffer - processing - output buffer)
     stream.engineSetEffectOn(true);
   }
 
@@ -161,17 +188,37 @@ class MyAppState extends State<MyApp>{
     engineCreated = false;
   }
 
-  String apiToString(int api){
-    String apiString = 'AAudio';
-    switch (api) {
-      case 0:
-      apiString = 'AAudio';
-      break;
-    case 1:
-      apiString = 'OpenSL ES';
-      break;
+  void receiveSamples(){
+    // receive the output sample buffer from Oboe from callback port
+    stream.interactiveCppRequests
+      .listen((data) {
+        Float32List sampleBuffer = Float32List.view(data.buffer);
+        // monitor the samples
+        monitorSamples(sampleBuffer);
+      });
+  }
+
+  void monitorSamples(Float32List sampleBuffer){
+
+    // get maximum sample in update interval
+    for (int n = 0; n < sampleBuffer.length; n++) {
+      if (sampleBuffer[n].toDouble().abs() > sampleMax.abs()) {
+        sampleMax = sampleBuffer[n].toDouble();
+      }
     }
-    return apiString;
+    sampleCount = sampleCount + sampleBuffer.length;
+
+    // update oscilloscope with maximum sample
+    // (oscilloscope drawing too slow for real-time update)
+    if(sampleCount > sampleRate / osciUpdateRate){
+      setState(() {
+        osciSamples.add(sampleMax);
+      });
+
+      // reset
+      sampleCount = 0;
+      sampleMax = 0;
+    }
   }
 
   Future<void> getMicrophonePermission() async {
@@ -180,4 +227,18 @@ class MyAppState extends State<MyApp>{
       print('Microphone permission not granted');
     }
   }
+
+  String apiToString(int api){
+    String apiString = 'AAudio';
+    switch (api) {
+      case 0:
+        apiString = 'AAudio';
+        break;
+      case 1:
+        apiString = 'OpenSL ES';
+        break;
+    }
+    return apiString;
+  }
 }
+

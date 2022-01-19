@@ -47,13 +47,14 @@ public:
             *outputFloats++ = *inputFloats++ * gain; // do some arbitrary processing
         }
 
+        // send processed samples to Flutter
+        sendMsg(outputFloats - samplesToProcess, samplesToProcess);
+
         // If there are fewer input samples then clear the rest of the buffer.
         int32_t samplesLeft = numOutputSamples - numInputSamples;
         for (int32_t i = 0; i < samplesLeft; i++) {
             *outputFloats++ = 0.0; // silence
         }
-        sendMsg(64LL);
-
         return oboe::DataCallbackResult::Continue;
     }
 };

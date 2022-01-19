@@ -136,6 +136,6 @@ float FullDuplexStream::getGain(){
     return mgain;
 }
 
-void FullDuplexStream::sendMsg(int64_t msg){
-    sendMsgToFlutter(msg);
+void FullDuplexStream::sendMsg(float * msg, int32_t length){
+    sendMsgToFlutter(reinterpret_cast<uint8_t*>(msg), length);
 }

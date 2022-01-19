@@ -49,65 +49,71 @@ class FlutterOboe {
   late LiveEffectEngineNative1setDefaultStreamValues engineNative1setDefaultStreamValues;
   late LiveEffectEngineSetGain engineSetGain;
 
-  late DynamicLibrary oboeLib;
+  late DynamicLibrary _oboeLib;
+  late ReceivePort interactiveCppRequests;
 
   FlutterOboe(){
 
-    oboeLib = DynamicLibrary.open('libflutter_oboe.so');
+    _oboeLib = DynamicLibrary.open('libflutter_oboe.so');
 
-    engineCreate = oboeLib
+    engineCreate = _oboeLib
       .lookup<NativeFunction<LiveEffectEngine_create>>('LiveEffectEngine_create')
       .asFunction();
 
-    engineDelete = oboeLib
+    engineDelete = _oboeLib
         .lookup<NativeFunction<LiveEffectEngine_delete>>('LiveEffectEngine_delete')
         .asFunction();
 
-    engineSetEffectOn = oboeLib
+    engineSetEffectOn = _oboeLib
         .lookup<NativeFunction<LiveEffectEngine_setEffectOn>>('LiveEffectEngine_setEffectOn')
         .asFunction();
 
-    engineSetRecordingDeviceId = oboeLib
+    engineSetRecordingDeviceId = _oboeLib
         .lookup<NativeFunction<LiveEffectEngine_setRecordingDeviceId>>('LiveEffectEngine_setRecordingDeviceId')
         .asFunction();
 
-    engineSetPlaybackDeviceId = oboeLib
+    engineSetPlaybackDeviceId = _oboeLib
         .lookup<NativeFunction<LiveEffectEngine_setPlaybackDeviceId>>('LiveEffectEngine_setPlaybackDeviceId')
         .asFunction();
 
-    engineSetAPI = oboeLib
+    engineSetAPI = _oboeLib
         .lookup<NativeFunction<LiveEffectEngine_setAPI>>('LiveEffectEngine_setAPI')
         .asFunction();
 
-    engineIsAAudioRecommended = oboeLib
+    engineIsAAudioRecommended = _oboeLib
         .lookup<NativeFunction<LiveEffectEngine_isAAudioRecommended>>('LiveEffectEngine_isAAudioRecommended')
         .asFunction();
 
-    engineNative1setDefaultStreamValues = oboeLib
+    engineNative1setDefaultStreamValues = _oboeLib
         .lookup<NativeFunction<LiveEffectEngine_native_1setDefaultStreamValues>>('LiveEffectEngine_native_1setDefaultStreamValues')
         .asFunction();
-    engineSetGain = oboeLib
+    engineSetGain = _oboeLib
       .lookup<NativeFunction<LiveEffectEngine_setGain>>('LiveEffectEngine_setGain')
       .asFunction();
   }
 
-  // messenging, see https://github.com/audiooffler/JucyFluttering
+  // messenging over Receive Port, see https://github.com/audiooffler/JucyFluttering
   void initNativeMessenging() async {
     // initialize the native dart API
-    final initializeApi = oboeLib.lookupFunction<IntPtr Function(Pointer<Void>),
+    final initializeApi = _oboeLib.lookupFunction<IntPtr Function(Pointer<Void>),
         int Function(Pointer<Void>)>("InitializeDartApi");
     if (initializeApi(NativeApi.initializeApiDLData) != 0) {
       throw "Failed to initialize Dart API";
     }
 
-    final interactiveCppRequests = ReceivePort()
-      ..listen((data) {
-        print('Seconds of OBOE running: ${data}');
-      });
+    interactiveCppRequests = ReceivePort();
+/*      ..listen((data) {
+        Float32List samples = Float32List.view(data.buffer);
+        // for (int i = 0; i < samples.length; i++) {
+            //print(samples[i].toString()); // print the processed samples
+        //}
+        receiveSamples(samples);
+
+      });*/
 
     final int nativePort = interactiveCppRequests.sendPort.nativePort;
 
-    final void Function(int port) setDartApiMessagePort = oboeLib
+    final void Function(int port) setDartApiMessagePort = _oboeLib
         .lookup<NativeFunction<Void Function(Int64 port)>>(
         "SetDartApiMessagePort")
         .asFunction();

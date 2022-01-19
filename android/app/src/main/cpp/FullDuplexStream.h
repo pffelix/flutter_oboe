@@ -84,7 +84,7 @@ public:
     /**
     * Send message to flutter
     */
-    void sendMsg(int64_t msg);
+    void sendMsg(float * msg, int32_t length);
 
 private:
 

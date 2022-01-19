@@ -14,7 +14,8 @@
  * limitations under the License.
  */
 
-#pragma once
+#ifndef C_PORT_H
+#define C_PORT_H
 
 #include "DartApiDL/include/dart_api_dl.h"
 
@@ -39,14 +40,17 @@ EXTERNC void SetDartApiMessagePort(int64_t port)
     DartApiMessagePort = port;
 }
 
-// this will send long integer to dart receiver port as a message
-void sendMsgToFlutter(int64_t msg)
+// this will send float array to dart receiver port as a message
+void sendMsgToFlutter(uint8_t * msg, intptr_t length)
 {
     if (DartApiMessagePort == -1)
       return;
     Dart_CObject obj;
-    obj.type = Dart_CObject_kInt64;
-    obj.value.as_int64 = msg;
+    obj.type = Dart_CObject_kTypedData;
+    obj.value.as_typed_data.type = Dart_TypedData_kFloat32;
+    obj.value.as_typed_data.values = msg;
+    obj.value.as_typed_data.length = length;
     Dart_PostCObject_DL(DartApiMessagePort, &obj);
 }
 
+#endif //C_PORT_H
