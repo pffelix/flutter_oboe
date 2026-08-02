@@ -25,3 +25,8 @@ flutter run lib/main.dart
 
 Thanks goes to Richard Heap for his tutorial on dart:ffi https://www.youtube.com/watch?v=X8JD8hHkBMc&t=1380s  
 The futher goal of the project might be to develop more comprehensive low latency audio recording bindings for Flutter (if there is interest and more contributors want to join).
+Generated with:
+<p align="center">
+<img src="images/android_studio.png">
+</p>
+<br>
