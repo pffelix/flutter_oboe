@@ -28,6 +28,6 @@ The futher goal of the project might be to develop more comprehensive low latenc
 Generated with:
 
 <p align="center">
-<img src="images/android_studio.png">
+<img src="images/androidstudio.png">
 </p>
 <br>
